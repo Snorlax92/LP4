@@ -34,7 +34,7 @@
 }
 
 .heading-1.white {
-  color: #fff;
+  color: rgb(3, 3, 3);
 }
 
 .heading-1.white.large {
@@ -54,7 +54,7 @@
 }
 
 .sub-heading.white {
-  color: #fff;
+  color: rgb(10, 10, 10);
 }
 
 .sub-heading._2 {
@@ -66,7 +66,7 @@
 }
 
 .sub-heading._2.white {
-  color: hsla(0, 0%, 100%, 0.87);
+  color: hsla(0, 0%, 0%, 0.87);
 }
 
 .sub-heading._2.left-aligned {
@@ -84,7 +84,7 @@
 }
 
 .body-text.white {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: hsla(0, 0%, 1%, 0.6);
   text-align: left;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .heading-2.white {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .heading-2.left-aligned {
@@ -122,7 +122,7 @@
 }
 
 .heading-5.white {
-  color: #fff;
+  color: rgb(8, 8, 8);
 }
 
 .heading-5.white.no-margin {
@@ -165,7 +165,7 @@
 }
 
 .heading-4.white {
-  color: #fff;
+  color: rgb(2, 2, 2);
 }
 
 .heading-4.step {
