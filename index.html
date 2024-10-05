@@ -487,45 +487,60 @@
                 </div>
             </div>
             <img src="assets/607f14e5c97413bf73259dec_Group.svg" loading="lazy" alt="" class="image" />
-            <div class="div-block-19">
-                <div class="form-block-2 w-form">
-                    <div class="form-field-inherit w-embed">
-                        <style>
-                            .w-input[disabled],
-                            .w-select[disabled],
-                            .w-input[readonly],
-                            .w-select[readonly],
-                            fieldset[disabled] .w-input,
-                            fieldset[disabled] .w-select {
-                                cursor: not-allowed;
-                                background-color: inherit;
-                            }
-                        </style>
-                    </div>
-
-                    <form id="wf-form-Coupon-Form" name="wf-form-Coupon-Form" data-name="Coupon Form"><input
-                            type="text" class="coupon-field w-input" maxlength="256" name="Coupon-Field"
-                            data-name="Coupon Field" placeholder="0x95d6547800c79372CA08C22D1d44A18AAEF1cf67" id="coup-field" /></form>
-                    <div class="w-form-done">
-                        <div>Thank you! </div>
-                    </div>
-
-                    <div class="w-form-fail">
-                        <div>Oops! Something went wrong while submitting the form.</div>
-                    </div><a data-clipboard-target=".coupon-field" href="https://www.sushi.com/swap?chainId=314&token0=NATIVE&token1=0x95d6547800c79372CA08C22D1d44A18AAEF1cf67" _target="_blank"
-                        class="copy-btn w-button">Copy</a>
-                </div>
-            </div>
             <div class="text-and-iframe"> <!-- Contenedor para el texto y el iframe -->
+                <div class="text-section"> <!-- Contenedor para el texto -->
+                    <div class="div-block-19">
+                        <div class="form-block-2 w-form">
+                            <div class="form-field-inherit w-embed">
+                                <style>
+                                    .w-input[disabled],
+                                    .w-select[disabled],
+                                    .w-input[readonly],
+                                    .w-select[readonly],
+                                    fieldset[disabled] .w-input,
+                                    fieldset[disabled] .w-select {
+                                        cursor: not-allowed;
+                                        background-color: inherit;
+                                    }
+                                </style>
+                            </div>
+
+                            <form id="wf-form-Coupon-Form" name="wf-form-Coupon-Form" data-name="Coupon Form"><input
+                                    type="text" class="coupon-field w-input" maxlength="256" name="Coupon-Field"
+                                    data-name="Coupon Field" placeholder="0x95d6547800c79372CA08C22D1d44A18AAEF1cf67" id="coup-field" /></form>
+                            <div class="w-form-done">
+                                <div>Thank you! </div>
+                            </div>
+
+                            <div class="w-form-fail">
+                                <div>Oops! Something went wrong while submitting the form.</div>
+                            </div><a data-clipboard-target=".coupon-field" href="https://www.sushi.com/swap?chainId=314&token0=NATIVE&token1=0x95d6547800c79372CA08C22D1d44A18AAEF1cf67" _target="_blank"
+                                class="copy-btn w-button">Copy</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="iframe-section"> <!-- Contenedor para el iframe -->
                     <iframe src="https://www.sushi.com/cross-chain-swap?chainId0=1&chainId1=314&token0=NATIVE&token1=0x95d6547800c79372CA08C22D1d44A18AAEF1cf67"
                             width="600px" height="380px"></iframe>
                 </div>
             </div>
         </div>
-
     </div>
 </div>
+<style>
+.text-and-iframe {
+    display: flex; /* Habilita el diseño de flexbox */
+  }
+  
+  .text-section {
+    width: 30%; /* Ancho del texto, ajusta según sea necesario */
+    margin-right: 20px; /* Margen entre el texto y el iframe */
+  }
+  
+  .iframe-section {
+    width: 70%; /* Ancho del iframe, ajusta según sea necesario */
+  }
+</style>
 	
 <!--
 	<div class="divider"></div>
