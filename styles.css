@@ -1,0 +1,12 @@
+.text-and-iframe {
+    display: flex; /* Habilita el diseño de flexbox */
+  }
+  
+  .text-section {
+    width: 30%; /* Ancho del texto, ajusta según sea necesario */
+    margin-right: 20px; /* Margen entre el texto y el iframe */
+  }
+  
+  .iframe-section {
+    width: 70%; /* Ancho del iframe, ajusta según sea necesario */
+  }
